@@ -1,0 +1,181 @@
+ :root {
+    --logo-prefix-color: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --text-decoration: none;
+    --main-footer-text-color: #F4F4FD;
+ }
+ 
+ body {
+     font-family: 'Roboto', sans-serif;
+     color: var(--navy-blue);
+     width: 1440px;
+     /* Default to Roboto Regular */
+ }
+
+ header {
+    display: flex;
+    justify-content: left;
+    /* Aligns items with space in between */
+    align-items: center;
+    border-bottom: 1px solid #E7E9FC;
+    /* Thick bottom border with color */
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #2E2F42;
+    height: 312px;
+}
+
+a {
+    text-decoration: var(--text-decoration);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    line-height: 72px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    flex-direction: row;
+    padding: 0;
+}
+
+nav ul li, address ul li {
+    margin-right: 40px;
+    /* Adjust spacing between list items */
+}
+
+header address {
+    display: flex;
+    align-items: center;
+    margin-left: 252px;
+}
+
+header address ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header address ul a {
+    color: #434455;
+    font-style: normal;
+}
+
+.navigation-links a {
+    color: var(--navy-blue);
+}
+
+ .bold-font {
+     font-weight: bold;
+ }
+
+ .medium-font {
+     font-weight: 500;
+     /* Medium weight */
+ }
+
+ .raleway-font {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 800;
+     /* ExtraBold weight */
+ }
+
+ header .logo {
+    margin-left: 156px;
+    margin-right: 76px;
+ }
+
+ .logo {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    /* Assuming black color for the logo text */
+    display: flex;
+    align-items: center;
+    /* Align items vertically in the center */
+ }
+
+.logo-prefix {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--logo-prefix-color);
+}
+
+.logo-suffix-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--navy-blue);
+}
+
+.logo-suffix-footer {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--main-footer-text-color);
+}
+
+.footer-text {
+    color: var(--main-footer-text-color);
+}
+
+.footer-logo-container {
+    margin-left: 156px;
+    margin-right: 76px;
+    width: 264px;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-color: inherit;
+}
+
+.footer-logo-container p {
+    text-align: left;
+}
+
+.filter {
+    margin-top: 96px;
+    margin-left: 427px;
+    margin-bottom: 72px;
+    /* margin-bottom: ; */
+    display: flex;
+}
+
+.filter-item {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    height: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #E7E9FC;
+    margin-left: 24px;
+    border-radius: 8%;
+}
+
+.filter-item:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.filter-category {
+    margin-top: 48px;
+    margin-left: 156px;
+    display: flex;
+}
+
+.filter-category-item {
+    margin-left: 24px;
+    /* display: flex; */
+}
