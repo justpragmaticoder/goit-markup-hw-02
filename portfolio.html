@@ -4,99 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Raleway:800">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header-container">
+        <nav class="navigation-section">
             <a href="./index.html" class="logo">
-                <span class="logo-prefix">WEB</span><span class="logo-suffix-header">STUDIO</span>
+                WEB<span class="logo-suffix-header">STUDIO</span>
             </a>
-            <ul class="medium-font navigation-links">
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./index.html">Contacts</a></li>
+            <ul class="list navigation-list">
+                <li><a href="./index.html" class="navigation-link">Studio</a></li>
+                <li><a href="./portfolio.html" class="navigation-link">Portfolio</a></li>
+                <li><a href="./index.html" class="navigation-link">Contacts</a></li>
             </ul>
         </nav>
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <address class="address-section">
+            <ul class="list address-section-list">
+                <li><a href="mailto:info@devstudio.com" class="address-item">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="address-item">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
 
     <main>
-        <ul class="filter">
-            <li><button type="button" class="filter-item">All</button></li>
-            <li><button type="button" class="filter-item">Web Site</button></li>
-            <li><button type="button" class="filter-item">App</button></li>
-            <li><button type="button" class="filter-item">Design</button></li>
-            <li><button type="button" class="filter-item">Marketing</button></li>
-        </ul>
-        
-        <ul class="filter-category">
-            <li class="filter-category-item">
-                <img src="./images/banking-app-interface.jpg" width="360" height="300" alt="Banking App Interface Concept">
-                <h3 class="medium-font">Banking App Interface Concept</h3>
-                <p>App</p>
-            </li>
-            <li class="filter-category-item">
-                <img src="./images/cashless-payment.jpg" width="360" height="300" alt="Cashless Payment">
-                <h3 class="medium-font">Cashless Payment</h3>
-                <p>Marketing</p>
-            </li>
-            <li class="filter-category-item">
-                <img src="./images/mediation-app.jpg" width="360" height="300" alt="Meditation App">
-                <h3 class="medium-font">Meditation App</h3>
-                <p>App</p>
-            </li>
-        </ul>
-
-        <ul class="filter-category">
-            <li class="filter-category-item">
-                <img src="./images/taxi-service.jpg" width="360" height="300" alt="Taxi Service">
-                <h3 class="medium-font">Taxi Service</h3>
-                <p>Marketing</p>
-            </li>
-            <li class="filter-category-item">
-                <img src="./images/screen-illustrations.jpg" width="360" height="300" alt="Screen Illustrations">
-                <h3 class="medium-font">Screen Illustrations</h3>
-                <p>Design</p>
-            </li>
-            <li class="filter-category-item">
-                <img src="./images/onlince-courses.jpg" width="360" height="300" alt="Online Courses">
-                <h3 class="medium-font">Online Courses</h3>
-                <p>Marketing</p>
-            </li>
-        </ul>
-
-        <ul class="filter-category">
-            <li class="filter-category-item">
-                <img src="./images/instagram-stories-concept.jpg" width="360" height="300" alt="Instagram Stories Concept">
-                <h3 class="medium-font">Instagram Stories Concept</h3>
-                <p>Design</p>
-            </li>
-            <li class="filter-category-item">
-                <img src="./images/organoc-food.jpg" width="360" height="300" alt="Organic Food">
-                <h3 class="medium-font">Organic Food</h3>
-                <p>Web Site</p>
-            </li>
-            <li class="filter-category-item">
-                <img src="./images/mediation-app.jpg" width="360" height="300" alt="Fresh Coffee">
-                <h3 class="medium-font">Fresh Coffee</h3>
-                <p>Web Site</p>
-            </li>
-        </ul>
+        <section class="section-container">
+            <h1 class="hidden-element">Portfolio projects</h1>
+            <ul class="list filter">
+                <li><button type="button" class="filter-item">All</button></li>
+                <li><button type="button" class="filter-item">Web Site</button></li>
+                <li><button type="button" class="filter-item">App</button></li>
+                <li><button type="button" class="filter-item">Design</button></li>
+                <li><button type="button" class="filter-item">Marketing</button></li>
+            </ul>
+            
+            <ul class="list filter-category">
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/banking-app-interface.jpg" width="360" height="300" alt="Banking App Interface Concept">
+                    <h2 class="filter-item-title">Banking App Interface Concept</h2>
+                    <p class="filter-item-description">App</p>
+                </li>
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/cashless-payment.jpg" width="360" height="300" alt="Cashless Payment">
+                    <h2 class="filter-item-title">Cashless Payment</h2>
+                    <p class="filter-item-description">Marketing</p>
+                </li>
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/mediation-app.jpg" width="360" height="300" alt="Meditation App">
+                    <h2 class="filter-item-title">Meditation App</h2>
+                    <p class="filter-item-description">App</p>
+                </li>
+            </ul>
+            
+            <ul class="list filter-category">
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/taxi-service.jpg" width="360" height="300" alt="Taxi Service">
+                    <h2 class="filter-item-title">Taxi Service</h2>
+                    <p class="filter-item-description">Marketing</p>
+                </li>
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/screen-illustrations.jpg" width="360" height="300" alt="Screen Illustrations">
+                    <h2 class="filter-item-title">Screen Illustrations</h2>
+                    <p class="filter-item-description">Design</p>
+                </li>
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/onlince-courses.jpg" width="360" height="300" alt="Online Courses">
+                    <h2 class="filter-item-title">Online Courses</h2>
+                    <p class="filter-item-description">Marketing</p>
+                </li>
+            </ul>
+            
+            <ul class="list filter-category">
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/instagram-stories-concept.jpg" width="360" height="300" alt="Instagram Stories Concept">
+                    <h2 class="filter-item-title">Instagram Stories Concept</h2>
+                    <p class="filter-item-description">Design</p>
+                </li>
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/organoc-food.jpg" width="360" height="300" alt="Organic Food">
+                    <h2 class="filter-item-title">Organic Food</h2>
+                    <p class="filter-item-description">Web Site</p>
+                </li>
+                <li class="list-item filter-category-list-item">
+                    <img src="./images/portfolio/mediation-app.jpg" width="360" height="300" alt="Fresh Coffee">
+                    <h2 class="filter-item-title">Fresh Coffee</h2>
+                    <p class="filter-item-description">Web Site</p>
+                </li>
+            </ul>
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer-container">
         <div class="footer-logo-container">
             <a href="./index.html" class="logo">
-                <span class="logo-prefix">WEB</span><span class="logo-suffix-footer">STUDIO</span>
+                WEB<span class="logo-suffix-footer">STUDIO</span>
             </a>
             <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.
             </p>
