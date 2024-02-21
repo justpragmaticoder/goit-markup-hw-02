@@ -59,12 +59,21 @@ h3 {
   padding: 0;
 }
 
+.navigation-list-item {
+  margin-right: 40px;
+}
+
 .navigation-link {
-  font: 500 16px / 1.5 "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   text-decoration: var(--text-decoration);
-  margin-right: 40px;
+}
+
+.navigation-link:hover, .address-item:hover, .navigation-link:focus, .address-item:focus {
+  color: var(--iris);
 }
 
 .bold-font {
@@ -103,7 +112,8 @@ h3 {
 }
 
 .footer-text {
-  font: 400 16px / 1.5 "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
   text-align: left;
@@ -127,8 +137,14 @@ h3 {
   margin-bottom: 72px;
 }
 
+.filter-list-item {
+  margin-right: 24px;
+}
+
 .filter-item {
-  font: 500 16px / 1.5 "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--slate);
@@ -139,12 +155,12 @@ h3 {
   padding-left: 24px;
   padding-right: 24px;
   border: 1px solid #e7e9fc;
-  margin-left: 24px;
   border-radius: 8%;
 }
 
 .filter-item-title {
-  font: 500 20px / 1.2 "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-top: 32px;
@@ -152,7 +168,9 @@ h3 {
 }
 
 .filter-item-description {
-  font: 400 16px / 1.5 "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
   margin-top: 8px;
@@ -186,7 +204,7 @@ h3 {
 }
 
 .list-item {
-  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .hidden-element {
@@ -202,13 +220,15 @@ h3 {
   display: block;
   padding-top: 188px;
   width: 496px;
-  font: 700 56px / 1.07143 "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
 }
 
 .order-section-button {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
   margin-top: 48px;
   margin-bottom: 188px;
   border-radius: 4px;
@@ -217,7 +237,6 @@ h3 {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: var(--iris);
-  font: 500 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: var(--white);
 }
@@ -232,17 +251,21 @@ h3 {
 }
 
 .section-item-title {
-  font: 500 20px / 1.2 "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
   color: var(--navy-blue);
 }
 
 .section-item-description {
-  font: 400 16px / 1.5 "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--slate);
 }
 
 .section-h2-title {
-  font: 700 36px / 1.11111 "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
